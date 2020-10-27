@@ -1,0 +1,114 @@
+/*  
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+    
+:root {
+  /*Put any background value here, it can be an image
+  or color. If you are confused, look up CSS background
+  property on w3schools.com.*/
+  --accent-color: rgba(255, 0, 0, 1);
+  
+  --primary-background: rgba(215, 215, 215, 1);
+  --secondary-background: rgba(200, 200, 200, 1);
+  --tertiary-background: rgba(170, 170, 170, 1);
+  --xenoLib-background: rgba(215, 215, 215, 0.5);
+  
+  --nav-color-primary:rgba(170, 170, 170, 1);
+  --nav-color-secondary:rgba(100, 100, 100, 1);
+  
+  --chat-color:var(--tertiary-background);
+  --chat-text:rgba(30, 30, 30, 1);
+  
+  --highlight-primary: rgba(10, 10, 10, 0.8);
+  --highlight-accent: rgba(255, 0, 0, 0.4);
+}
+.da-app, .da-peopleColumn{background-color:var(--primary-background);}
+
+.da-guilds, 
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div > div.scroller-zPkAnE.da-scroller.auto-Ge5KZx.scrollerBase-289Jih, #app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div > div.scroller-zPkAnE.da-scroller.auto-Ge5KZx.scrollerBase-289Jih > div > div.resultFocused-3aIoYe.result-oB0z--.da-resultFocused.da-result > div > div.iconContainer-3UxHn2.da-iconContainer
+{background:none;}
+
+.da-guilds foreignObject{
+    mask:none;
+    border-right:0px solid var(--highlight-accent);
+    transition-duration:0.2s;
+}
+.da-guilds foreignObject:hover{
+    border-radius:10px;
+    transition-duration:0.2s;
+    border-bottom:5px solid var(--highlight-accent);
+}
+.da-pill span.da-item{
+    background:var(--accent-color);
+}
+.bd-selected .da-blobContainer .da-wrapper svg{
+    zoom:90%;
+    margin:5% 5% 5% 5%;
+}.bd-guild .da-blobContainer .da-wrapper svg:hover{
+    zoom:110%;
+    margin:-5% -5% -5% -5%;
+}
+
+.modeUnread-1zpFdA{
+    color:var(--accent-color);
+}
+
+.xenoLib-notification{
+    color:var(--chat-text);
+}.xenoLib-notification-content{
+    background:var(--xenoLib-background)!important;
+    backdrop-filter:blur(3px)!important;
+}
+
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div > div.scroller-zPkAnE.da-scroller.auto-Ge5KZx.scrollerBase-289Jih, .da-protip
+{text-shadow:0px 0px 5px var(--accent-color);}
+#app-mount > div.app-1q1i1E.da-app > div.app-2rEoOp.da-app > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > nav > div.scroller-2TZvBN.da-scroller.none-2Eo-qx.scrollerBase-289Jih, .da-searchBarComponent, .da-quickswitcher
+{background:var(--tertiary-background) !important;}
+.da-searchBarComponent{border:1px solid var(--highlight-accent);}
+
+#channels, #private-channels, .da-userPopout .da-headerNormal
+{   /*all Secondary colors*/
+    background:var(--secondary-background);
+    color:var(--chat-text);
+}
+
+#app-mount > div.app-1q1i1E.da-app > div.app-2rEoOp.da-app > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > nav > div.container-2Rl01u.da-container.clickable-2ap7je.da-clickable > header, #app-mount > div.app-1q1i1E.da-app > div.app-2rEoOp.da-app > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section, .da-searchBar
+{background:var(--nav-color-primary);}
+
+#app-mount > div.app-1q1i1E.da-app > div.app-2rEoOp.da-app > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.chat-3bRxxu.da-chat > div > main
+{background:var(--chat-color);}
+
+.da-message{
+    background:var(--primary-background);
+    border:none;
+    border-left:7px solid var(--accent-color);
+    margin-left:16px;
+    margin-right:16px;
+    border-radius:20px 20px 20px 0px;
+}
+.da-messageContent{
+    color:var(--chat-text);
+}
+.da-username{color:var(--accent-color);}
+
+#app-mount > div.app-1q1i1E.da-app > div.app-2rEoOp.da-app > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.chat-3bRxxu.da-chat > div > main > form:before
+{display:none;}#app-mount > div.app-1q1i1E.da-app > div.app-2rEoOp.da-app > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.chat-3bRxxu.da-chat > div > main > form > div > div > div.channelTextArea-rNsIhG.da-channelTextArea.channelTextArea-2VhZ6z.da-channelTextArea > div
+{background:none;}
+
+#app-mount > div.app-1q1i1E.da-app > div.app-2rEoOp.da-app > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.chat-3bRxxu.da-chat > div > main > form > div > div > div.channelTextArea-rNsIhG.da-channelTextArea.channelTextArea-2VhZ6z.da-channelTextArea
+{
+    border-radius:0px 0px 0px 0px;
+    background:var(--secondary-background);
+    border:none;
+    border-left:2px solid var(--accent-color);}

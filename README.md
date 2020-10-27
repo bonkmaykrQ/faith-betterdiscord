@@ -1,2 +1,2 @@
-# faith-betterdiscord
+# Faith (Beta)
 Alternative Light Theme for BetterDiscord
